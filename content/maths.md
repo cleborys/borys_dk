@@ -3,7 +3,7 @@ title: "Math Research"
 hidemeta: true
 disableAnchoredHeadings: true
 cover:
-    image: "/maths.jpg"
+    image: "maths.jpg"
     alt: "A photo of groupoid arguments on a blackboard"
     hidden: false
 ---
