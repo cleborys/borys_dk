@@ -18,7 +18,9 @@ Most notably, I developed tools to describe their ideal structure.
 * The Furstenberg Boundary of a Groupoid
   (2019, [arXiv](https://arxiv.org/abs/1904.10062))
 * A Groupoid Picture of the Elek Algebras 
-  (2019, [mathematica scandinavica](https://www.mscand.dk/article/view/122419))
+  (2019,
+  [math.scand.](https://www.mscand.dk/article/view/122419),
+  [arXiv](https://arxiv.org/abs/1908.01329))
 
 ## Service
 * I was head organizer of the
