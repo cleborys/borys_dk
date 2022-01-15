@@ -1,0 +1,82 @@
+baseURL: "https://blog.borys.dk/"
+title: "Clemens Borys"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: "Clemens Borys"
+  description: "Personal page of Clemens Borys"
+  keywords: []
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "Home"
+    icon: "/favicon.png"
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Clemens Borys"
+    Content: |
+      I am a Software Engineer at [Akamai Technologies](https://akamai.com) in Copenhagen.
+
+      Previously, I obtained my PhD in mathematics in 2020 at the
+      [University of Copenhagen](https://math.ku.dk/)
+      under the supervision of Magdalena Musat and Mikael Rørdam.
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:clemens@borys.dk"
+    - name: "github"
+      url: "https://github.com/cleborys"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/clemens-borys-539b37134/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menu:
+  main:
+    - identifier: maths
+      name: maths
+      url: /maths/
+      weight: 10
